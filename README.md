@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# Weather App - React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A sleek and dynamic weather and forecast app built with React Native, providing detailed weather information and a stunning UI inspired by [**Awsmd**](https://dribbble.com/shots/22863114-Weather-App-Design) on Dribbble. The app showcases a 5-day forecast, real-time weather updates based on your location, and visually adaptive backgrounds that change according to weather conditions and daylight.
 
-## Get started
+## 🌍 Features
 
-1. Install dependencies
+- **5-Day Weather Forecast:** Stay updated with accurate weather predictions.
+- **Location-Based Weather:** Get real-time weather updates based on your location (with permission).
+- **Dynamic City Images:** Fetches city-specific images from **Unsplash API** for a vibrant experience.
+- **Adaptive Backgrounds:** Background changes dynamically with weather conditions and daylight.
+- **Global City Showcase:** Hardcoded 7 cities from different parts of the world to highlight UI transformations.
+- **Tested with Jest:** Ensuring reliability and robustness through comprehensive testing.
+- **Tailwind CSS Styling:** Clean, responsive, and modern UI with Tailwind CSS.
+- **Built with TypeScript:** Enhanced code quality and maintainability.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** (Ensure it's installed)
+- **Expo CLI** (if not installed, run `npm install -g expo-cli`)
+
+### Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/emintahic/weather-app-react-native.git
+   cd weather-app-react-native
+   ```
+
+2. **Install Dependencies:**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. **Start the App:**
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. **Run on Device/Emulator:**
+   - Scan the QR code using the **Expo Go** app (Android/iOS).
+   - Or run on an emulator through the Expo CLI interface.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## ⚙️ Technologies Used
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **React Native** - For building the mobile application.
+- **TypeScript** - Ensuring type safety and better code structure.
+- **Tailwind CSS** - For modern and responsive UI styling.
+- **OpenWeather API** - Fetching real-time weather data.
+- **Unsplash API** - Dynamically fetching images for each city.
+- **Jest** - For unit and integration testing.
 
-## Get a fresh project
+## 📷 UI Inspiration
 
-When you're ready, run:
+Special credits to [**Awsmd**](https://dribbble.com/shots/22863114-Weather-App-Design) on Dribbble for inspiring the clean and dynamic user interface.
 
-```bash
-npm run reset-project
-```
+## 🤝 Contributing
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Contributions are welcome! Feel free to fork the repository, submit issues, or open pull requests to enhance the app.
 
-## Learn more
+## 📄 License
 
-To learn more about developing your project with Expo, look at the following resources:
+This project is open-source and available under the [MIT License](LICENSE).
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Made with ❤️ by [emintahic](https://github.com/emintahic)
